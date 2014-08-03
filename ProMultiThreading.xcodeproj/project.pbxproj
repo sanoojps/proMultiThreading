@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		157CAB0F193BCC7100B01D45 /* ElegentDelegationFull.m in Sources */ = {isa = PBXBuildFile; fileRef = 157CAB0E193BCC7100B01D45 /* ElegentDelegationFull.m */; };
+		159DB42819397844005AD932 /* ElegentDelegation.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DB42719397844005AD932 /* ElegentDelegation.m */; };
 		15A1672F192BDE2600798F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A1672E192BDE2600798F91 /* Foundation.framework */; };
 		15A16732192BDE2600798F91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A16731192BDE2600798F91 /* main.m */; };
 		15A16736192BDE2600798F91 /* ProMultiThreading.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 15A16735192BDE2600798F91 /* ProMultiThreading.1 */; };
+		15A1673E192BE17300798F91 /* TargetPRoxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A1673D192BE17300798F91 /* TargetPRoxy.m */; };
+		15CC3DF7198D1A8900B0364E /* LearningARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CC3DF6198D1A8900B0364E /* LearningARC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		15A16729192BDE2600798F91 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 				15A16736192BDE2600798F91 /* ProMultiThreading.1 in CopyFiles */,
@@ -26,11 +30,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		157CAB0D193BCC7100B01D45 /* ElegentDelegationFull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElegentDelegationFull.h; sourceTree = "<group>"; };
+		157CAB0E193BCC7100B01D45 /* ElegentDelegationFull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElegentDelegationFull.m; sourceTree = "<group>"; };
+		159DB42619397844005AD932 /* ElegentDelegation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElegentDelegation.h; sourceTree = "<group>"; };
+		159DB42719397844005AD932 /* ElegentDelegation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElegentDelegation.m; sourceTree = "<group>"; };
 		15A1672B192BDE2600798F91 /* ProMultiThreading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProMultiThreading; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A1672E192BDE2600798F91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		15A16731192BDE2600798F91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15A16734192BDE2600798F91 /* ProMultiThreading-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProMultiThreading-Prefix.pch"; sourceTree = "<group>"; };
 		15A16735192BDE2600798F91 /* ProMultiThreading.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ProMultiThreading.1; sourceTree = "<group>"; };
+		15A1673C192BE17300798F91 /* TargetPRoxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetPRoxy.h; sourceTree = "<group>"; };
+		15A1673D192BE17300798F91 /* TargetPRoxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetPRoxy.m; sourceTree = "<group>"; };
+		15CC3DF5198D1A8900B0364E /* LearningARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningARC.h; sourceTree = "<group>"; };
+		15CC3DF6198D1A8900B0364E /* LearningARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearningARC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +86,16 @@
 			isa = PBXGroup;
 			children = (
 				15A16731192BDE2600798F91 /* main.m */,
+				15A1673C192BE17300798F91 /* TargetPRoxy.h */,
+				15A1673D192BE17300798F91 /* TargetPRoxy.m */,
 				15A16735192BDE2600798F91 /* ProMultiThreading.1 */,
 				15A16733192BDE2600798F91 /* Supporting Files */,
+				159DB42619397844005AD932 /* ElegentDelegation.h */,
+				159DB42719397844005AD932 /* ElegentDelegation.m */,
+				157CAB0D193BCC7100B01D45 /* ElegentDelegationFull.h */,
+				157CAB0E193BCC7100B01D45 /* ElegentDelegationFull.m */,
+				15CC3DF5198D1A8900B0364E /* LearningARC.h */,
+				15CC3DF6198D1A8900B0364E /* LearningARC.m */,
 			);
 			path = ProMultiThreading;
 			sourceTree = "<group>";
@@ -139,7 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15CC3DF7198D1A8900B0364E /* LearningARC.m in Sources */,
 				15A16732192BDE2600798F91 /* main.m in Sources */,
+				157CAB0F193BCC7100B01D45 /* ElegentDelegationFull.m in Sources */,
+				159DB42819397844005AD932 /* ElegentDelegation.m in Sources */,
+				15A1673E192BE17300798F91 /* TargetPRoxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,9 +202,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
@@ -211,26 +235,36 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};
 		15A1673A192BDE2600798F91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProMultiThreading/ProMultiThreading-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		15A1673B192BDE2600798F91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProMultiThreading/ProMultiThreading-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -253,6 +287,7 @@
 				15A1673B192BDE2600798F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
